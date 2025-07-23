@@ -6,7 +6,7 @@ import Hero from "./component/Hero";
 import Marquee from "./component/Marquee";
 import Project from "./component/Project";
 import About from "./component/About";
-import Work from "./component/Work";
+import Work from "./component/Education";
 import Contact from "./component/Contact";
 
 function App() {

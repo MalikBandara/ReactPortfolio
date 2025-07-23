@@ -12,7 +12,7 @@ const Hero = () => {
           </h1>
           <div className="mt-8">
             <a
-              href="/Benson-Langford.pdf"
+              href="/myCV.pdf"
               target="_blank"
               rel="noopener noreferrer"
               download

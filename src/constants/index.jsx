@@ -20,7 +20,7 @@ import project9 from "../assets/project9.webp";
 export const LINKS = [
   { id: "projects", name: "projects" },
   { id: "about", name: "about" },
-  { id: "experience", name: "experience" },
+  { id: "experience", name: "Education" },
   { id: "contact", name: "Contact" },
 ];
 
@@ -46,9 +46,8 @@ export const PROJECTS = [
   },
   {
     id: 3,
-    title: "Portfolio Website",
-    description:
-      "A personal portfolio website to showcase projects and skills. using HTML , CSS and JavaScript",
+    title: "Extra",
+    description: ".....",
     imgSrc: project3,
     link: "https://portfolio-desing.vercel.app/",
   },
@@ -70,11 +69,11 @@ export const PROJECTS = [
   },
   {
     id: 6,
-    title: "Online Learning Platform",
+    title: "React Portfolio",
     description:
-      "An online learning platform offering various courses and resources.",
+      "React portfolio create using React , tailwind css and framer motion ",
     imgSrc: project6,
-    link: "https://example.com/online-learning-platform",
+    link: "https://github.com/MalikBandara/ReactPortfolio.git",
   },
   {
     id: 7,
@@ -105,52 +104,42 @@ export const PROJECTS = [
 export const ABOUT =
   "As a dedicated Full Stack Developer, I specialize in creating dynamic and responsive web applications that provide seamless user experiences. With a strong foundation in both front-end and back-end technologies, I excel in building robust and scalable solutions. My expertise includes working with JavaScript frameworks such as React and Node.js, as well as proficiency in databases like MongoDB and SQL. I am passionate about continuous learning and keeping up-to-date with the latest industry trends, which allows me to implement modern practices and tools in my projects.";
 
-export const EXPERIENCES = [
+export const EDUCATION = [
   {
-    company: "Google",
-    role: "Software Engineer",
-    year: "12/2023 - Present",
+    institute: "Institute of Java and Software Engineering (IJSE)",
+    course: "BSc (Hons) in Computer Science",
+    year: "07/2025 - Present",
     description:
-      "Developing and maintaining scalable web applications using modern technologies. Collaborating with cross-functional teams to design and implement new features. Enhancing application performance and ensuring high-quality code through rigorous testing and code reviews. Contributing to the continuous improvement of development processes and best practices.",
+      "Currently pursuing my BSc (Hons) in Computer Science at the Institute of Java and Software Engineering (IJSE), where I’m gaining practical, hands-on experience in full-stack software development. The program covers a wide range of technologies including Python, Java, Spring Boot, HTML, CSS, JavaScript, React.js, TypeScript, MongoDB, SQL, and Microservices. It is designed to be highly industry-focused, emphasizing real-world application, software architecture, and modern coding practices. I’ve worked with MVC and layered architecture, implemented RESTful APIs, and collaborated on projects using Git and GitHub. This program is helping me build a solid foundation in both frontend and backend development, preparing me to tackle real-world software engineering challenges with confidence.",
   },
   {
-    company: "Facebook",
-    role: "Frontend Developer",
-    year: "01/2021 - 11/2023",
+    institute: "Comprehensive Master Java Developer ",
+    course:
+      "Oracle Certified Associate & Professional Java Programmer (OCAJP & OCPJP)",
+    year: "2023 - 2024",
     description:
-      "Implemented user interfaces for web applications using React and Redux. Worked closely with designers to ensure seamless user experiences. Optimized components for maximum performance across a vast array of web-capable devices and browsers. Participated in code reviews and provided feedback to maintain high code quality.",
+      "Successfully completed the Oracle Certified Associate Java SE and Oracle Certified Professional Java Programmer examinations. Gained strong understanding in programming fundamentals, object-oriented principles, exception handling, data structures and algorithms, multithreading, and JavaFX. Worked with relational databases using MySQL and JDBC. Built layered applications using MVC architecture, applied design patterns, and implemented ORM techniques. Also developed full-stack applications using Spring Boot for the backend and React for the frontend. Familiar with web technologies including HTML, CSS, JavaScript, jQuery, and Bootstrap.",
   },
 ];
 
 export const SOCIAL_MEDIA_LINKS = [
   {
-    href: "https://x.com/",
+    href: "https://www.facebook.com/profile.php?id=100082522564202",
     icon: <FaFacebook fontSize={26} className="hover:opacity-80" />,
   },
+
   {
-    href: "https://x.com/",
-    icon: <FaDiscord fontSize={26} className="hover:opacity-80" />,
-  },
-  {
-    href: "https://x.com/",
-    icon: <FaInstagram fontSize={26} className="hover:opacity-80" />,
-  },
-  {
-    href: "https://x.com/",
-    icon: <FaXTwitter fontSize={26} className="hover:opacity-80" />,
-  },
-  {
-    href: "https://github.com/",
+    href: "https://github.com/MalikBandara",
     icon: <FaGithub fontSize={26} className="hover:opacity-80" />,
   },
   {
-    href: "https://www.linkedin.com/",
+    href: "https://www.linkedin.com/in/malikbandara?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     icon: <FaLinkedin fontSize={26} className="hover:opacity-80" />,
   },
 ];
 
 export const CONTACT = {
   text: "I am always excited to collaborate on new and challenging projects. Whether you have a specific project in mind or just want to explore potential opportunities, Id love to hear from you. Lets combine our skills and expertise to create something amazing. Feel free to reach out to discuss how we can work together to achieve your goals.",
-  email: "hi@benson.langford.me",
-  phone: "+(221 - 7654567892)",
+  email: "mmalith520@gmail.com",
+  phone: "+94 71 607 7743",
 };
